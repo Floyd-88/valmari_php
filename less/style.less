@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "normalize";
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+
+}
+
+header {
+    .block {
+        margin: 0 12px 0;
+        border-bottom: 1px solid #55A63080;
+
+        .line_1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .block_logo {
+                display: flex;
+                align-items: center;
+                margin-top: 12px;
+                margin-bottom: 10px;
+
+                a {
+                    img {
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+
+                .name {
+                    width: 151.94px;
+                    font-size: 9px;
+                    opacity: 0.8;
+                    padding-left: 11px;
+                }
+            }
+
+            .block_info {
+                display: flex;
+                align-items: center;
+
+                .block_phone {
+                    display: flex;
+                    padding-right: 22px;
+
+                    .phone_img {
+                        width: 28;
+                        height: 28px;
+                    }
+
+                    .phone_number {
+                        padding-left: 22px;
+                        font-family: Montserrat;
+                        font-size: 25px;
+                        text-align: left;
+                        color: #424242;
+
+                    }
+                }
+
+                .block_icons {
+                    display: flex;
+                    align-items: center;
+                    margin-left: 58px;
+
+                    .block_social {
+                        display: flex;
+
+                        a:not(:last-child) {
+                            margin-right: 26px;
+                        }
+
+                    }
+
+                    .block_lang {
+                        display: flex;
+
+                        .lang {
+                            margin-left: 66px;
+                            margin-right: 14px;
+                        }
+
+                        .down {}
+                    }
+                }
+            }
+        }
+
+
+
+    }
+
+    .menu {
+        nav {
+            margin: 23px 0;
+
+            .menu_items {
+                display: flex;
+                padding-top: 4px;
+
+                .menu_item {
+                    &:not(:last-child) {
+                        margin-right: 60.2px;
+                    }
+
+                    a {
+                        font-family: Montserrat;
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #424242;
+                    }
+                }
+            }
+        }
+    }
+}
