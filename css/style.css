@@ -721,6 +721,13 @@ header .menu nav .menu_items .menu_item a {
   height: 154px;
   bottom: 60px;
 }
+.sec_2 .card .container_2 .block_t5 .face_2 {
+  position: absolute;
+  right: 13px;
+  width: 122px;
+  height: 154px;
+  bottom: 60px;
+}
 .sec_2 .card .container_2 .t6 {
   margin-bottom: 20px;
   font-size: 18px;
@@ -740,6 +747,7 @@ header .menu nav .menu_items .menu_item a {
   font-family: Montserrat;
   font-size: 20px;
   font-weight: 600;
+  color: #ffffff;
 }
 .sec_2 .card .block_reg .description {
   display: flex;
@@ -765,6 +773,7 @@ header .menu nav .menu_items .menu_item a {
 }
 .sec_2 .card_indigo .description {
   background: rgba(83, 81, 196, 0.1);
+  color: #4340b4;
 }
 .sec_2 .card_green .t2 {
   color: #55a630;
@@ -780,6 +789,7 @@ header .menu nav .menu_items .menu_item a {
 }
 .sec_2 .card_green .description {
   background: #ecf9eb;
+  color: #55a630;
 }
 .sec_2 .card_blue .t2 {
   color: #1d8195;
@@ -795,4 +805,5 @@ header .menu nav .menu_items .menu_item a {
 }
 .sec_2 .card_blue .description {
   background: rgba(0, 168, 150, 0.1);
+  color: #1d8195;
 }
