@@ -880,3 +880,149 @@ header .menu nav .menu_items .menu_item a {
   position: relative;
   left: 38px;
 }
+.sec_4 {
+  margin-top: 171px;
+}
+.sec_4 .title {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 35px;
+  font-weight: 600;
+}
+.sec_4 .block {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 76px;
+}
+.sec_4 .block .card {
+  position: relative;
+  font-size: 32px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.sec_4 .block .card .dark_fone {
+  position: absolute;
+  top: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: rgba(35, 35, 35, 0.8);
+}
+.sec_4 .block .card .dark_fone .down {
+  margin-top: 167px;
+}
+.sec_4 .block .card .dark_fone .up {
+  margin-top: 20px;
+}
+.sec_4 .block .card .dark_fone .description_course {
+  padding-left: 23px;
+}
+.sec_4 .block .card .dark_fone .description_course ul li {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 21px;
+}
+.sec_4 .block .card:hover .dark_fone {
+  display: block;
+}
+.sec_4 .block .card_1 {
+  position: relative;
+  width: 570px;
+  height: 261px;
+  margin-right: 60px;
+  background-image: url("../img/Rectangle_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec_4 .block .card_1 .text {
+  padding-top: 35px;
+  padding-left: 28px;
+  z-index: 1000;
+  position: absolute;
+}
+.sec_4 .block .card_1 .text::after {
+  content: "";
+  width: 85px;
+  height: 27px;
+  background-image: url(../img/Arrow.svg);
+  background-repeat: round;
+  background-size: cover;
+  display: inline-block;
+  margin-left: 71px;
+  top: 13px;
+  position: relative;
+}
+.sec_4 .block .card_2 {
+  position: relative;
+  width: 570px;
+  height: 261px;
+  background-image: url("../img/Rectangle_2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec_4 .block .card_2 .text {
+  padding-top: 193px;
+  padding-left: 25px;
+  z-index: 1000;
+  position: absolute;
+}
+.sec_4 .block .card_2 .text::after {
+  content: "";
+  width: 85px;
+  height: 27px;
+  background-image: url(../img/Arrow.svg);
+  background-repeat: round;
+  background-size: cover;
+  display: inline-block;
+  margin-left: 71px;
+  top: 13px;
+  position: relative;
+}
+.sec_4 .block .card_3 {
+  position: relative;
+  width: 364px;
+  height: 260px;
+  margin-top: 54px;
+  margin-right: 54px;
+  background-image: url("../img/Rectangle_3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec_4 .block .card_3 .text {
+  padding-top: 197px;
+  padding-left: 28px;
+  z-index: 1000;
+  position: absolute;
+}
+.sec_4 .block .card_4 {
+  position: relative;
+  width: 364px;
+  height: 260px;
+  margin-top: 54px;
+  margin-right: 54px;
+  background-image: url("../img/Rectangle_4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec_4 .block .card_4 .text {
+  padding-top: 22px;
+  padding-left: 28px;
+  z-index: 1000;
+  position: absolute;
+}
+.sec_4 .block .card_5 {
+  position: relative;
+  width: 364px;
+  height: 260px;
+  margin-top: 54px;
+  background-image: url("../img/Rectangle_5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec_4 .block .card_5 .text {
+  padding-top: 201px;
+  padding-left: 28px;
+  z-index: 1000;
+  position: absolute;
+}
