@@ -23,7 +23,7 @@
 }
 
 .pagination {
-   text-align: center;
+    text-align: center;
     margin-top: 75px;
 }
 
@@ -33,7 +33,7 @@
     background-color: rgba(183, 236, 177, 1); // изменяем цвет фона активного пункта
     color: rgba(183, 236, 177, 1); // изменяем цвет текста активного пункта
     // border: 2px solid #ff0000; // изменяем стиль рамки активного пункта
-    }
+}
 
 .swiper-pagination-custom .swiper-pagination-bullet-active {
     width: 15px;
@@ -41,7 +41,7 @@
     background-color: rgba(85, 166, 48, 1); // изменяем цвет фона активного пункта
     color: rgba(85, 166, 48, 1); // изменяем цвет текста активного пункта
     // border: 2px solid #ff0000; // изменяем стиль рамки активного пункта
-    }
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -512,5 +512,98 @@ header {
             background: rgba(0, 168, 150, 0.1);
             color: rgba(29, 129, 149, 1);
         }
+    }
+}
+
+.sec_3 {
+    margin-top: 151px;
+
+    .block {
+        display: flex;
+
+        .wrapper_img {
+            width: 590px;
+            height: 666px;
+            margin-right: 121px;
+            flex-shrink: 0;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .wrapper_text {
+            display: flex;
+            flex-direction: column;
+
+            .up {
+                flex: 1 0 auto;
+
+                .t1 {
+                    font-size: 25px;
+                    font-weight: 500;
+                    color: rgba(133, 133, 133, 1);
+
+                }
+
+                .t2 {
+                    margin-top: 30px;
+                    width: 452px;
+                    color: rgba(66, 66, 66, 1);
+                    font-size: 35px;
+                    font-weight: 700;
+                    line-height: 37px;
+                    letter-spacing: -0.4000000059604645px;
+
+                    span {
+                        color: rgba(85, 166, 48, 1);
+                    }
+                }
+
+                .wrapper_t3 {
+                    margin-top: 75px;
+                    // margin-bottom: 60px;
+
+                    width: 452px;
+
+                    p {
+                        font-family: Montserrat;
+                        font-size: 25px;
+                        font-weight: 500;
+                        line-height: 29px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                        color: rgba(66, 66, 66, 1);
+
+                        &:not(:last-child) {
+                            padding-bottom: 15px;
+                        }
+                    }
+                }
+            }
+
+            .down {
+                display: flex;
+                align-items: center;
+                justify-content: end;
+                flex-shrink: 0;
+
+                .information {
+                    margin-right: 13px;
+                    font-size: 25px;
+                    font-weight: 500;
+                    color: rgba(85, 166, 48, 1);
+                }
+
+                .next {
+                    padding-top: 8px;
+                    position: relative;
+                    left: 38px;
+                }
+            }
+        }
+
+
     }
 }
