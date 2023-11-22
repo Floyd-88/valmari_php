@@ -6,6 +6,12 @@
     // height: 300px;
 }
 
+.swiper_2 {
+    width: 1200px;
+    overflow: hidden;
+    // height: 300px;
+}
+
 .slider__back {
     position: absolute;
     left: -27px;
@@ -22,6 +28,14 @@
     cursor: pointer;
 }
 
+.slider__back_2 {
+    top: 52%;
+}
+
+.slider__next_2 {
+    top: 52%;
+}
+
 .pagination {
     text-align: center;
     margin-top: 75px;
@@ -32,6 +46,7 @@
     height: 15px;
     background-color: rgba(183, 236, 177, 1); // изменяем цвет фона активного пункта
     color: rgba(183, 236, 177, 1); // изменяем цвет текста активного пункта
+    opacity: 1;
     // border: 2px solid #ff0000; // изменяем стиль рамки активного пункта
 }
 
@@ -849,4 +864,128 @@ header {
             }
         }
     }
+}
+
+.sec_6 {
+    margin-top: 173px;
+
+    .t1 {
+        font-family: Montserrat;
+        font-size: 35px;
+        font-weight: 600;
+        color: rgba(66, 66, 66, 1);
+        text-align: center;
+        margin-bottom: 23px;
+    }
+
+    .t2 {
+        font-family: Montserrat;
+        font-size: 25px;
+        font-weight: 500;
+        color: rgba(66, 66, 66, 1);
+        text-align: center;
+        margin-bottom: 82px;
+        padding-left: 28px;
+    }
+
+    .wrapper {
+        padding-left: 12px;
+
+        .card {
+            width: 520px;
+            box-shadow: 0px 2px 10px -1px rgba(66, 66, 66, 0.15);
+
+            .master_wrapper {
+                width: 520px;
+                height: 223px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .block_text {
+                display: flex;
+                flex-direction: row;
+                padding-left: 29px;
+
+                .text {
+                    display: flex;
+                    flex-direction: column;
+                    flex: 1 0 auto;
+
+                    .t3 {
+                        font-family: Raleway;
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: rgba(66, 66, 66, 1);
+                        margin-bottom: 15px;
+                        padding-top: 15px;
+                        opacity: 0.8;
+                    }
+
+                    .t4 {
+                        width: 294px;
+                        font-family: Montserrat;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 24px;
+                        letter-spacing: 0em;
+                        color: rgba(66, 66, 66, 1);
+                        margin-bottom: 21px;
+                    }
+
+                    .t5 {
+                        width: 275px;
+                        // padding-bottom: 38px;
+                        font-family: Raleway;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 22px;
+                        letter-spacing: 0px;
+                        color: rgba(66, 66, 66, 1);
+                        opacity: 0.8;
+                    }
+                }
+
+                .link_wrap {
+                    width: 153px;
+                    flex-shrink: 0;
+                    display: flex;
+                    flex-direction: column;
+
+                    .price {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 132px;
+                        width: 100%;
+                        font-family: Montserrat;
+                        font-size: 20px;
+                        font-weight: 600;
+                        color: rgba(66, 66, 66, 1);
+                        background: rgba(236, 249, 235, 1);
+                        opacity: 0.8;
+                    }
+
+                    .link {
+                        height: 98px;
+                        display: flex;
+                        flex-grow: 1;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        background: rgba(85, 166, 48, 1);
+                    }
+                }
+            }
+
+
+        }
+    }
+
+
+
+
 }
