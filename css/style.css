@@ -1343,3 +1343,80 @@ header .menu nav .menu_items .menu_item a {
   font-weight: 600;
   background: #55a630;
 }
+footer {
+  margin-top: 175px;
+}
+footer .block {
+  display: flex;
+}
+footer .block .map {
+  width: 796px;
+  height: 774px;
+  flex-shrink: 0;
+}
+footer .block .map iframe {
+  width: 100%;
+  height: 100%;
+}
+footer .block .info_footer {
+  width: 100%;
+  background: #424242;
+  padding-left: 70px;
+}
+footer .block .info_footer .logo {
+  display: block;
+  width: 98px;
+  height: 98px;
+  margin-top: 37px;
+  position: relative;
+  left: 5px;
+}
+footer .block .info_footer .tel {
+  margin-top: 50px;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+}
+footer .block .info_footer .adress {
+  margin-top: 21px;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 500;
+  color: #ffffff;
+}
+footer .block .info_footer .links {
+  margin-top: 77px;
+}
+footer .block .info_footer .links ul {
+  columns: 2;
+  width: 483px;
+}
+footer .block .info_footer .links ul li {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+footer .block .info_footer .social {
+  display: flex;
+  margin-top: 81px;
+  padding-left: 5px;
+}
+footer .block .info_footer .social a:last-child {
+  margin: 0;
+}
+footer .block .info_footer .social a {
+  margin-left: 0;
+  margin-right: 39px;
+}
+footer .block .info_footer .politico {
+  margin-top: 48px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  padding-left: 4px;
+}

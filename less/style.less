@@ -1100,7 +1100,7 @@ header {
 
     .block {
         box-shadow: 0px 2px 20px 0px rgba(66, 66, 66, 0.15);
-        
+
         .t1 {
             padding-top: 75px;
             font-size: 30px;
@@ -1108,7 +1108,7 @@ header {
             text-align: center;
             color: rgba(85, 166, 48, 1);
         }
-    
+
         .t2 {
             margin-top: 26px;
             font-family: Montserrat;
@@ -1117,53 +1117,149 @@ header {
             text-align: center;
             color: rgba(66, 66, 66, 1);
         }
-    
+
         .wrapper_form {
             margin-top: 63px;
             padding-bottom: 74px;
             width: 100%;
             display: flex;
             justify-content: center;
+
             form {
                 width: 428px;
 
-                     .inp {
-                        input:last-child {
-                            margin-bottom: 30px;
-                        }
-                        input {
-                            padding-left: 34px;
-                            width: 100%;
-                            margin-bottom: 15px;
-                            height: 60px;
-                            font-family: Montserrat;
-                            font-size: 14px;
-                            font-weight: 400;
-                            line-height: 13px;
-                            letter-spacing: 0px;
-                            text-align: left;
-                            border: 1px solid rgba(85, 166, 48, 1);
+                .inp {
+                    input:last-child {
+                        margin-bottom: 30px;
+                    }
 
-                            &::placeholder {
-                                color: rgba(156, 156, 156, 1);
-                                }
+                    input {
+                        padding-left: 34px;
+                        width: 100%;
+                        margin-bottom: 15px;
+                        height: 60px;
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 13px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        border: 1px solid rgba(85, 166, 48, 1);
+
+                        &::placeholder {
+                            color: rgba(156, 156, 156, 1);
                         }
-                  
-                     }       
+                    }
 
                 }
-        
-                button {
-                    width: 100%;
-                    height: 71px;
-                    font-family: Montserrat;
-                    font-size: 23px;
-                    font-weight: 600;
-                    background: rgba(85, 166, 48, 1);
+
+            }
+
+            button {
+                width: 100%;
+                height: 71px;
+                font-family: Montserrat;
+                font-size: 23px;
+                font-weight: 600;
+                background: rgba(85, 166, 48, 1);
+            }
+        }
+
+
+    }
+
+}
+
+footer {
+    margin-top: 175px;
+
+    .block {
+        display: flex;
+
+        .map {
+            width: 796px;
+            height: 774px;
+            flex-shrink: 0;
+
+            iframe {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .info_footer {
+            width: 100%;
+            background: rgba(66, 66, 66, 1);
+            padding-left: 70px;
+
+            .logo {
+                display: block;
+                width: 98px;
+                height: 98px;
+                margin-top: 37px;
+                position: relative;
+                left: 5px;
+            }
+
+            .tel {
+                margin-top: 50px;
+                font-family: Montserrat;
+                font-size: 30px;
+                font-weight: 700;
+                color: rgba(255, 255, 255, 1);
+            }
+
+            .adress {
+                margin-top: 21px;
+                font-family: Montserrat;
+                font-size: 25px;
+                font-weight: 500;
+                color: rgba(255, 255, 255, 1);
+            }
+
+            .links {
+                margin-top: 77px;
+
+                ul {
+                    columns: 2;
+                    width: 483px;
+
+                    li {
+                        font-family: Montserrat;
+                        font-size: 18px;
+                        font-weight: 500;
+                        color: rgba(255, 255, 255, 1);
+                        opacity: 0.8;
+                        margin-bottom: 20px;
+                    }
                 }
             }
-            
-        
+
+            .social {
+                display: flex;
+                margin-top: 81px;
+                padding-left: 5px;
+
+                a:last-child {
+                    margin: 0;
+                }
+
+                a {
+                    margin-left: 0;
+                    margin-right: 39px;
+                }
+
+
+            }
+
+            .politico {
+                margin-top: 48px;
+                font-family: Montserrat;
+                font-size: 18px;
+                font-weight: 400;
+                color: rgba(255, 255, 255, 1);
+                padding-left: 4px;
+            }
+        }
     }
-    
 }
