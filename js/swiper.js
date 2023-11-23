@@ -39,3 +39,23 @@ spaceBetween: 150, // расстояние между слайдами
     prevEl: '.slider__back',
   },
 });
+
+new Swiper('.swiper_3', {
+  // direction: 'vertical', // вертикальная прокрутка
+slidesPerView: 3, // показывать по 3 превью
+spaceBetween: 30, // расстояние между слайдами
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.pagination',
+    clickable: true,
+    width: 15,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.slider__next',
+    prevEl: '.slider__back',
+  },
+});

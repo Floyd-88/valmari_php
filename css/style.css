@@ -445,6 +445,13 @@ input:focus:-ms-input-placeholder {
 .slider__next_2 {
   top: 52%;
 }
+.slider__back_3 {
+  top: 48%;
+}
+.slider__next_3 {
+  top: 48%;
+  right: -28px;
+}
 .pagination {
   text-align: center;
   margin-top: 75px;
@@ -1253,4 +1260,28 @@ header .menu nav .menu_items .menu_item a {
 }
 .sec_7 .block_card .card_green {
   background: #b7ecb1;
+}
+.sec_8 {
+  margin-top: 162px;
+}
+.sec_8 .t1 {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 35px;
+  font-weight: 600;
+  color: #424242;
+}
+.sec_8 .wrapper {
+  margin-top: 75px;
+}
+.sec_8 .wrapper .swiper_3 {
+  overflow: hidden;
+}
+.sec_8 .wrapper .swiper_3 .card {
+  width: 380px;
+  height: 380px;
+}
+.sec_8 .wrapper .swiper_3 .card img {
+  width: 100%;
+  height: 100%;
 }
