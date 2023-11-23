@@ -984,8 +984,74 @@ header {
 
         }
     }
+}
 
+.sec_7 {
+    margin-top: 143px;
 
+    .t1 {
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 35px;
+        font-weight: 600;
+        color: rgba(66, 66, 66, 1);
+    }
 
+    .block_card {
+        margin-top: 75px;
+        display: flex;
+        justify-content: space-between;
 
+        .card {
+            position: relative;
+            padding-left: 28px;
+            width: 381px;
+            min-height: 315px;
+            box-shadow: 0px 3px 20px 0px rgba(66, 66, 66, 0.15);
+
+            .title_card {
+                display: flex;
+                align-items: center;
+                height: 118px;
+                font-family: Montserrat;
+                font-size: 25px;
+                font-weight: 600;
+                color: rgba(66, 66, 66, 1);
+                line-height: 26px;
+            }
+
+            .text_card {
+                font-family: Montserrat;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 23px;
+                letter-spacing: 0px;
+                color: rgba(28, 30, 35, 1);
+                margin-top: -17px;
+            }
+
+            .num_card {
+                position: absolute;
+                font-family: Raleway;
+                font-size: 180px;
+                font-weight: 500;
+                color: rgba(85, 166, 48, 0.25);
+                bottom: 4px;
+                right: 22px;
+      
+            }
+            
+            &:nth-child(even) {
+                .num_card {
+                    bottom: 138git px;
+                    right: 22px;
+                }
+            }
+
+        }
+
+        .card_green {
+            background: rgba(183, 236, 177, 1);
+        }
+    }
 }

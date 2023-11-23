@@ -1197,3 +1197,60 @@ header .menu nav .menu_items .menu_item a {
   width: 100%;
   background: #55a630;
 }
+.sec_7 {
+  margin-top: 143px;
+}
+.sec_7 .t1 {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 35px;
+  font-weight: 600;
+  color: #424242;
+}
+.sec_7 .block_card {
+  margin-top: 75px;
+  display: flex;
+  justify-content: space-between;
+}
+.sec_7 .block_card .card {
+  position: relative;
+  padding-left: 28px;
+  width: 381px;
+  min-height: 315px;
+  box-shadow: 0px 3px 20px 0px rgba(66, 66, 66, 0.15);
+}
+.sec_7 .block_card .card .title_card {
+  display: flex;
+  align-items: center;
+  height: 118px;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 600;
+  color: #424242;
+  line-height: 26px;
+}
+.sec_7 .block_card .card .text_card {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0px;
+  color: #1c1e23;
+  margin-top: -17px;
+}
+.sec_7 .block_card .card .num_card {
+  position: absolute;
+  font-family: Raleway;
+  font-size: 180px;
+  font-weight: 500;
+  color: rgba(85, 166, 48, 0.25);
+  bottom: 4px;
+  right: 22px;
+}
+.sec_7 .block_card .card:nth-child(even) .num_card {
+  bottom: 138git px;
+  right: 22px;
+}
+.sec_7 .block_card .card_green {
+  background: #b7ecb1;
+}
