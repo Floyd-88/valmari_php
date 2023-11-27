@@ -658,7 +658,7 @@ header .menu nav .menu_items .menu_item a {
 }
 .sec_2 .block .day {
   padding-bottom: 34px;
-  padding-right: 48px;
+  padding-right: 39px;
   padding-left: 40px;
   border-bottom: 1px solid #b5b5b5;
   display: flex;
@@ -684,6 +684,9 @@ header .menu nav .menu_items .menu_item a {
 }
 .sec_2 .block .day .content .thema .close_program {
   cursor: pointer;
+}
+.sec_2 .block .day .content .thema .rotate_btn {
+  transform: rotate(45deg);
 }
 .sec_2 .block .day .content .type {
   margin-top: 35px;
