@@ -59,4 +59,21 @@ new Swiper(".swiper_3", {
     prevEl: ".slider__back",
   },
 });
-console.log('good')
+
+new Swiper(".swiper_4", { 
+  loop: true,                         //loop
+  slidesPerView: 3,                   //number of slides to show
+  centeredSlides : true,              //put acctive slide center
+  spaceBetween: 60,
+  observer: true,
+  observeParents: true,
+  loopedSlides: 3,
+
+  // If we need pagination
+  pagination: {
+    el: ".pagination",
+    clickable: true,
+    width: 15,
+  },
+
+});
