@@ -721,6 +721,50 @@ header .menu nav .menu_items .menu_item a {
 .sec_2 .block .content_none {
   display: none;
 }
+.sec_3 {
+  margin-top: 168px;
+}
+.sec_3 .t1 {
+  margin-bottom: 77px;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #424242;
+}
+.sec_3 .block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sec_3 .block .card {
+  width: 576px;
+  min-height: 230px;
+  background: #d7ffd3;
+  padding-left: 41px;
+}
+.sec_3 .block .card:not( :nth-last-child(-n+2)) {
+  margin-bottom: 49px;
+}
+.sec_3 .block .card .t2 {
+  max-width: 416px;
+  padding-top: 43px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.4px;
+  color: #424242;
+}
+.sec_3 .block .card .t3 {
+  margin-top: 26px;
+  padding-bottom: 23px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  color: #424242;
+}
 footer .block {
   display: flex;
 }
