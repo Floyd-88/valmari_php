@@ -781,9 +781,20 @@ header .menu nav .menu_items .menu_item a {
   font-weight: 500;
   line-height: 26px;
   color: #ffffff;
+  opacity: 0.8;
   top: 69%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.sec_2 .block .video .wrapper_prev_video::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #424242;
+  opacity: 0.6;
 }
 .sec_2 .block .video .wrapper_desciption_video {
   display: flex;
@@ -799,7 +810,6 @@ header .menu nav .menu_items .menu_item a {
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0em;
-  text-align: left;
   color: #424242;
 }
 .sec_2 .block .video .wrapper_desciption_video .text_video_2 span {
