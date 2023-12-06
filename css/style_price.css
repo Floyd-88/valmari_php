@@ -1,0 +1,161 @@
+.sec_1 {
+  margin-top: 90px;
+}
+.sec_1 .t1 {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #424242;
+}
+.sec_1 .price {
+  margin-top: 79px;
+  padding-left: 63px;
+  padding-top: 33px;
+  padding-right: 36px;
+  background: #f8f8f8;
+}
+.sec_1 .price .title_price {
+  padding-bottom: 35px;
+}
+.sec_1 .price .block_price {
+  padding-bottom: 11px;
+}
+.sec_1 .price .title_price:not(:last-child),
+.sec_1 .price .block_price:not(:last-child) {
+  border-bottom: 1px solid #b5b5b5;
+}
+.sec_1 .price .title_price ul,
+.sec_1 .price .block_price ul {
+  display: flex;
+  align-items: center;
+}
+.sec_1 .price .title_price ul .title,
+.sec_1 .price .block_price ul .title {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #424242;
+}
+.sec_1 .price .title_price ul .title_1,
+.sec_1 .price .block_price ul .title_1 {
+  width: 576px;
+}
+.sec_1 .price .title_price ul .title_2,
+.sec_1 .price .block_price ul .title_2 {
+  width: 39px;
+  margin-right: 52px;
+  text-align: center;
+}
+.sec_1 .price .title_price ul .title_3,
+.sec_1 .price .block_price ul .title_3 {
+  width: 49px;
+  margin-right: 47px;
+  text-align: center;
+}
+.sec_1 .price .title_price ul .title_4,
+.sec_1 .price .block_price ul .title_4 {
+  width: 192px;
+}
+.sec_1 .price .title_price ul .title_5,
+.sec_1 .price .block_price ul .title_5 {
+  flex: 1 1 auto;
+}
+.sec_1 .price .title_price ul .bird,
+.sec_1 .price .block_price ul .bird {
+  position: relative;
+}
+.sec_1 .price .title_price ul .bird::before,
+.sec_1 .price .block_price ul .bird::before {
+  content: url("../img/icons/bird.svg");
+  position: absolute;
+  top: -12px;
+  right: 68px;
+}
+.sec_1 .price .title_price .list_price,
+.sec_1 .price .block_price .list_price {
+  margin-bottom: 25px;
+}
+.sec_1 .price .title_price .list_price:first-child,
+.sec_1 .price .block_price .list_price:first-child {
+  margin-bottom: 41px;
+}
+.sec_1 .price .title_price .list_price span,
+.sec_1 .price .block_price .list_price span {
+  width: 42px;
+}
+.sec_1 .price .title_price .list_price .item_price_1,
+.sec_1 .price .block_price .list_price .item_price_1 {
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #424242;
+}
+.sec_1 .price .title_price .list_price .item_price_1 a,
+.sec_1 .price .block_price .list_price .item_price_1 a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.sec_1 .price .title_price .list_price .item_price_1 a:hover,
+.sec_1 .price .block_price .list_price .item_price_1 a:hover {
+  color: #55a630;
+}
+.sec_1 .price .title_price .list_price .item_price_2,
+.sec_1 .price .block_price .list_price .item_price_2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #424242;
+}
+.sec_1 .price .title_price .list_price:first-child,
+.sec_1 .price .block_price .list_price:first-child {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 31px;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 600;
+  color: #424242;
+}
+.sec_1 .price .title_price .list_price:first-child .item_price_1,
+.sec_1 .price .block_price .list_price:first-child .item_price_1 {
+  display: flex;
+  padding-right: 30px;
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.sec_1 .price .title_price .list_price:first-child .item_price_1 a,
+.sec_1 .price .block_price .list_price:first-child .item_price_1 a {
+  text-decoration: none;
+  cursor: auto;
+}
+.sec_1 .price .title_price .list_price:first-child .item_price_1 a:hover,
+.sec_1 .price .block_price .list_price:first-child .item_price_1 a:hover {
+  color: #424242;
+}
+.sec_1 .price .title_price .list_price:first-child .item_price_2,
+.sec_1 .price .block_price .list_price:first-child .item_price_2 {
+  font-size: 18px;
+  line-height: 24px;
+}
+.sec_1 .note {
+  padding-right: 18px;
+  padding-top: 8px;
+  padding-bottom: 7px;
+  margin-top: 75px;
+  background: #ecf9eb;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.sec_2 {
+  margin-top: 164px;
+  margin-bottom: 175px;
+}

@@ -1,0 +1,53 @@
+.sec_1 {
+  margin-top: 97px;
+  margin-bottom: 77px;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.sec_1 .tab {
+  margin-top: 80px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #1c1e23;
+}
+.sec_1 .tab .tab_1 ul {
+  display: flex;
+}
+.sec_1 .tab .tab_1 ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 285px;
+  height: 44px;
+  border: 1px solid #d4d8db;
+  cursor: pointer;
+}
+.sec_1 .tab .tab_2 {
+  margin-top: 53px;
+}
+.sec_1 .tab .tab_2 ul {
+  display: flex;
+  justify-content: space-between;
+}
+.sec_1 .tab .tab_2 ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 201px;
+  height: 44px;
+  border: 1px solid #d4d8db;
+  cursor: pointer;
+}
+.sec_1 .tab .active {
+  background: linear-gradient(0deg, #b7ecb1, #b7ecb1), linear-gradient(0deg, #d4d8db, #d4d8db);
+}
+.sec_1 .google_calendar {
+  margin-top: 75px;
+}

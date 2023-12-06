@@ -1,0 +1,84 @@
+.sec_1 {
+  margin-top: 108px;
+}
+.sec_1 .t1 {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 52px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.sec_1 .block {
+  margin-top: 95px;
+}
+.sec_1 .block .wrapper_sale {
+  display: flex;
+}
+.sec_1 .block .wrapper_sale:not(:last-child) {
+  margin-bottom: 185px;
+}
+.sec_1 .block .wrapper_sale .img_sale {
+  width: 485px;
+  height: 485px;
+  flex-shrink: 0;
+}
+.sec_1 .block .wrapper_sale .img_sale img {
+  width: 100%;
+  height: 100%;
+}
+.sec_1 .block .wrapper_sale .text_sale {
+  padding-left: 66px;
+}
+.sec_1 .block .wrapper_sale .text_sale .t2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 31px;
+  color: #55a630;
+}
+.sec_1 .block .wrapper_sale .text_sale .wrapper_decs {
+  margin-top: 55px;
+}
+.sec_1 .block .wrapper_sale .text_sale .wrapper_decs p {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 35px;
+  color: #424242;
+}
+.sec_1 .block .wrapper_sale .text_sale .wrapper_decs p:not(:last-child) {
+  margin-bottom: 35px;
+}
+.sec_1 .block .wrapper_sale .text_sale button {
+  width: 320px;
+  height: 55px;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #ffffff;
+  background: #55a630;
+}
+.sec_1 .pagination_block {
+  margin-top: 75px;
+  margin-bottom: 176px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec_1 .pagination_block .block_page {
+  margin: 0 28px;
+}
+.sec_1 .pagination_block .block_page .page {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+}
+.sec_1 .pagination_block .block_page .page a {
+  color: #424242;
+}
+.sec_1 .pagination_block .block_page .page:not(:last-child) {
+  margin-right: 12px;
+}
+.sec_1 .pagination_block .block_page .active_page {
+  color: #55a630;
+}

@@ -9,3 +9,5 @@ document.addEventListener("click", (event) => {
         elem.classList.toggle("content_none")
     } 
 })
+
+console.log(222)

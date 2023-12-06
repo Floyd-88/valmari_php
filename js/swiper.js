@@ -1,6 +1,6 @@
-import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
+// import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
 
-new Swiper(".swiper", {
+let swiper = new Swiper(".swiper", {
   // direction: 'vertical', // вертикальная прокрутка
   slidesPerView: 3, // показывать по 3 превью
   spaceBetween: 54, // расстояние между слайдами
@@ -20,7 +20,7 @@ new Swiper(".swiper", {
   },
 });
 
-new Swiper(".swiper_2", {
+let swiper_2 = new Swiper(".swiper_2", {
   // direction: 'vertical', // вертикальная прокрутка
   slidesPerView: 2, // показывать по 3 превью
   spaceBetween: 150, // расстояние между слайдами
@@ -40,7 +40,7 @@ new Swiper(".swiper_2", {
   },
 });
 
-new Swiper(".swiper_3", {
+let swiper_3 = new Swiper(".swiper_3", {
   // direction: 'vertical', // вертикальная прокрутка
   slidesPerView: 3, // показывать по 3 превью
   spaceBetween: 30, // расстояние между слайдами
@@ -60,7 +60,7 @@ new Swiper(".swiper_3", {
   },
 });
 
-new Swiper(".swiper_4", { 
+let swiper_4 = new Swiper(".swiper_4", { 
   loop: true,                         //loop
   slidesPerView: 3,                   //number of slides to show
   centeredSlides : true,              //put acctive slide center

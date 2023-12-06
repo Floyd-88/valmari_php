@@ -1,0 +1,110 @@
+.sec_1 {
+  margin-top: 97px;
+}
+.sec_1 .t1 {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #424242;
+}
+.sec_1 .wrap_banner {
+  margin-top: 78px;
+  width: 100vw;
+  height: 415px;
+}
+.sec_1 .wrap_banner img {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.sec_1 .t2 {
+  display: flex;
+  justify-content: end;
+  margin-top: 32px;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.sec_1 a {
+  margin-top: 26px;
+  display: flex;
+  justify-content: end;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #55a630;
+}
+.sec_2 {
+  margin-top: 174px;
+  margin-bottom: 174px;
+}
+.sec_2 .t3 {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #424242;
+}
+.sec_2 .block {
+  margin-top: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 48px;
+}
+.sec_2 .block .card {
+  width: 368px;
+  height: 495px;
+  background: #f8f8f8;
+  margin-bottom: 55px;
+}
+.sec_2 .block .card .wpap_img {
+  width: 100%;
+  height: 242px;
+}
+.sec_2 .block .card .wpap_img img {
+  width: 100%;
+  height: 100%;
+}
+.sec_2 .block .card .t4 {
+  padding: 30px 19px 0 11px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #424242;
+}
+.sec_2 .block .card a {
+  display: flex;
+  justify-content: end;
+  padding-right: 32px;
+  margin-top: 61px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #55a630;
+}
+.sec_2 .pagination_block {
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec_2 .pagination_block .block_page {
+  margin: 0 28px;
+}
+.sec_2 .pagination_block .block_page .page {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+}
+.sec_2 .pagination_block .block_page .page a {
+  color: #424242;
+}
+.sec_2 .pagination_block .block_page .page:not(:last-child) {
+  margin-right: 12px;
+}
+.sec_2 .pagination_block .block_page .active_page {
+  color: #55a630;
+}
